@@ -11,5 +11,14 @@
 
     <artifactId>storm_drpc</artifactId>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.storm/storm-core -->
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-core</artifactId>
+            <version>0.9.6</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
